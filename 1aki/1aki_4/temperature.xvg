@@ -1,0 +1,35 @@
+# This file was created Thu May 25 19:14:11 2023
+# Created by:
+#              :-) GROMACS - gmx energy, 2021.4-Ubuntu-2021.4-2 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /mnt/c/Users/paul/works/1aki/1aki_4
+# Command line:
+#   gmx energy -f nvt.edr -o temperature.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Great Red Owns Many ACres of Sand 
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(K)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Temperature"
+    0.000000  299.557312
+    1.000000  298.757904
+    2.000000  300.639679
+    3.000000  299.517365
+    4.000000  299.655182
+    5.000000  299.945496
+    6.000000  304.022461
+    7.000000  298.397736
+    8.000000  297.904083
+    9.000000  298.572418
+   10.000000  303.879272

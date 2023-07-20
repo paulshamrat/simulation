@@ -1,0 +1,35 @@
+# This file was created Thu May  4 13:56:05 2023
+# Created by:
+#              :-) GROMACS - gmx energy, 2021.4-Ubuntu-2021.4-2 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /mnt/c/Users/paul/works/1aki
+# Command line:
+#   gmx energy -f nvt.edr -o temperature.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Glycine aRginine prOline Methionine Alanine Cystine Serine
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(K)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Temperature"
+    0.000000  300.541534
+    1.000000  299.106476
+    2.000000  301.809875
+    3.000000  300.199341
+    4.000000  299.445068
+    5.000000  302.686218
+    6.000000  301.068329
+    7.000000  299.647034
+    8.000000  301.901459
+    9.000000  303.696320
+   10.000000  303.939972

@@ -1,0 +1,35 @@
+# This file was created Thu May 25 19:17:40 2023
+# Created by:
+#              :-) GROMACS - gmx energy, 2021.4-Ubuntu-2021.4-2 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /mnt/c/Users/paul/works/1aki/1aki_4
+# Command line:
+#   gmx energy -f npt.edr -o pressure.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Gallium Rubidium Oxygen Manganese Argon Carbon Silicon
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(bar)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Pressure"
+    0.000000  -338.877045
+    1.000000  186.988113
+    2.000000   75.836586
+    3.000000  -191.198914
+    4.000000   32.290302
+    5.000000   84.999596
+    6.000000  107.776070
+    7.000000   68.708908
+    8.000000   24.909689
+    9.000000  -88.024391
+   10.000000   12.881145
